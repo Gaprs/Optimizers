@@ -1,5 +1,8 @@
 # Gradient-Desctent-by-Animation
+GIF by Optimizers result
+
 ![video](https://github.com/Gaprs/Gradient-Desctent-by-Animation/blob/master/Optimizers.gif)
+
 
 Optimizers function use x^4 - 50*x^3 - x + 1
 The function differential 3*x^3 - 150*x^2 - 1
