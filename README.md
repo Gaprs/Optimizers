@@ -17,11 +17,17 @@ Nesterov: v' = beta * v - lr * (partial(L) / partial(w))
           w* = w + v*
 
 Adagrade: 
+
 ![image](https://github.com/Gaprs/Gradient-Desctent-by-Animation/blob/master/Adagrade.png)
 
+
 RMSprop:
+
 ![image](https://github.com/Gaprs/Gradient-Desctent-by-Animation/blob/master/RMSprop.JPG)
 
+
 Adam:
+
 ![image](https://github.com/Gaprs/Gradient-Desctent-by-Animation/blob/master/Adam.png)
+
 
