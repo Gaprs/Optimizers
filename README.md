@@ -1,5 +1,5 @@
 # Gradient-Desctent-by-Animation
->>>>>>>>>>GIF by Optimizers result<<<<<<<<<<
+**********GIF by Optimizers result**********
 
 ![video](https://github.com/Gaprs/Gradient-Desctent-by-Animation/blob/master/Optimizers.gif)
 
