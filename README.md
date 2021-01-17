@@ -37,7 +37,7 @@ RMSprop(Root Mean Square prop, 方均根傳播):
 ![image](https://github.com/Gaprs/Gradient-Desctent-by-Animation/blob/master/RMSprop.JPG)
 
 
-Adam:(momentum+RMSprop)
+Adam(ADAptive Moment estimation, 適應性矩估計):(momentum+RMSprop)
 
 momentum :
 
