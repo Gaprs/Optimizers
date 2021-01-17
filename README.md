@@ -43,11 +43,13 @@ momentum :
 
         Vdw = beta1 * Vdw + (1-beta1) * dw, Vdb = beta1 * Vdb + (1-beta1) * db;
         (Corrected) Vdw = Vdw/(1-beta1^t), Vdb = Vdb/(1-beta1^t)
+        beta1是用來是用來計算dw的移動加權平均(動量)
 
 RMSprop:
 
         Sdw = beta2 * Sdw + (1-beta2) * dw^2, Sbd = beta2 * Sdb + (1-beta2) * db^2;
         (Corrected) Sdw = Sdw/(1-beta2^t), Sdb = Sdb/(1-beta2^t)
+        beta2是用來是用來計算dw^2 and db^2的移動加權平均
 
 update:
 
