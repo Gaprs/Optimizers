@@ -10,8 +10,8 @@ Optimizers function include SGD, Momentum, Nesterov, Adagrade, RMSprop, Adam
 
 SGD:  w' = w - lr * (partial(L) / partial(w)), L is Loss function, w is weight, lr is learning rate.
 
-Momentum_version1: v' = beta * v - lr * (partial(L) / partial(w))
-
+Momentum_version1: 
+                   v' = beta * v - lr * (partial(L) / partial(w))
                    w' = w + v'
                    
 Momentum_version2: v' = beta * v + (1-beta)*(partial(L) / partial(w))
