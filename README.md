@@ -39,20 +39,20 @@ RMSprop(Root Mean Square prop, 方均根傳播):
 
 Adam:(momentum+RMSprop)
 
-1. momentum :
+momentum :
 
-Vdw = beta1 * Vdw + (1-beta1) * dw, Vdb = beta1 * Vdb + (1-beta1) * db;
-(Corrected) Vdw = Vdw/(1-beta1^t), Vdb = Vdb/(1-beta1^t)
+        Vdw = beta1 * Vdw + (1-beta1) * dw, Vdb = beta1 * Vdb + (1-beta1) * db;
+        (Corrected) Vdw = Vdw/(1-beta1^t), Vdb = Vdb/(1-beta1^t)
 
-2. RMSprop:
+RMSprop:
 
-Sdw = beta2 * Sdw + (1-beta2) * dw^2, Sbd = beta2 * Sdb + (1-beta2) * db^2;
-(Corrected) Sdw = Sdw/(1-beta2^t), Sdb = Sdb/(1-beta2^t)
+        Sdw = beta2 * Sdw + (1-beta2) * dw^2, Sbd = beta2 * Sdb + (1-beta2) * db^2;
+        (Corrected) Sdw = Sdw/(1-beta2^t), Sdb = Sdb/(1-beta2^t)
 
-3.update:
+update:
 
-W = W - lr * ((Corrected Vdw) / (Corrected Sdw)^1/2 + epsilon
-b = b - lr * ((Corrected Vdw) / (Corrected Sdb)^1/2 + epsilon
+        W = W - lr * ((Corrected Vdw) / (Corrected Sdw)^1/2 + epsilon
+        b = b - lr * ((Corrected Vdw) / (Corrected Sdb)^1/2 + epsilon
 
 
 ![image](https://github.com/Gaprs/Gradient-Desctent-by-Animation/blob/master/Adam.png)
